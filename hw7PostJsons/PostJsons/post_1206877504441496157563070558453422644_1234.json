@@ -1,0 +1,48 @@
+{
+   "created_time" : "2020-06-14T20:41:00+0000",
+   "from" : {
+      "avatar_name" : "Vidit",
+      "vsID" : "1206877504441496157563070558453422644"
+   },
+   "history" : {
+      "count" : 1,
+      "data" : [
+         {
+            "avatar_name" : "mrsclutch",
+            "created_time" : "2020-06-13T21:27:55+0000",
+            "location" : {
+               "latitude" : 0,
+               "longtitude" : 0
+            },
+            "network" : {
+               "IPv4" : "255.255.255.255"
+            },
+            "vsID" : "14014051533661276241205188300254925627"
+         }
+      ]
+   },
+   "id" : "1206877504441496157563070558453422644_1234",
+   "is_published" : true,
+   "keys" : {
+      "count" : 6,
+      "data" : [
+         "homework",
+         "bhosdike",
+         "cupertino",
+         "plane",
+         "international",
+         "ecs36b"
+      ]
+   },
+   "message" : "Subways in Cupertino sell Paneer Tikka Sandwiches",
+   "to" : {
+      "count" : 1,
+      "data" : [
+         {
+            "avatar_name" : "Vidit",
+            "vsID" : "1206877504441496157563070558453422644"
+         }
+      ]
+   },
+   "updated_time" : "2020-06-14T20:51:00+0000"
+}

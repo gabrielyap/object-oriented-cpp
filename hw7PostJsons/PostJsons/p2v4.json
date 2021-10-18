@@ -1,0 +1,102 @@
+{
+   "created_time" : "2020-06-15T03:45:00+0000",
+   "from" : {
+      "avatar_name" : "gandharm",
+      "vsID" : "924811371419165400115693785366832578"
+   },
+   "history" : {
+      "count" : 8,
+      "data" : [
+         {
+            "avatar_name" : "Apex",
+            "created_time" : "2020-06-15T19:42:11+0000",
+            "network" : {
+               "IPv4" : "192.168.29.55"
+            },
+            "vsID" : "47313032145115731514633479982024909990"
+         },
+         {
+            "avatar_name" : "mrsclutch",
+            "created_time" : "2020-06-13T21:27:55+0000",
+            "location" : {
+               "latitude" : 0,
+               "longitude" : 0
+            },
+            "network" : {
+               "IPv4" : "255.255.255.255"
+            },
+            "vsID" : "14014051533661276241205188300254925627"
+         },
+         {
+            "avatar_name" : "Draco",
+            "created_time" : "2020-06-15T20:36:02+0000",
+            "location" : {
+               "latitude" : 38.713790000000003,
+               "longitude" : -121.462729
+            },
+            "network" : {
+               "IPv4" : "128.120.211.133"
+            },
+            "vsID" : "10833599571298196089841212911650886115"
+         },
+         {
+            "avatar_name" : "Vidit",
+            "created_time" : "2020-06-15T20:43:25+0000",
+            "network" : {
+               "IPv4" : "169.254.219.153"
+            },
+            "vsID" : "1206877504441496157563070558453422644"
+         },
+         {
+            "avatar_name" : "Pale",
+            "created_time" : "2020-06-15T20:48:35+0000",
+            "network" : {
+               "IPv4" : "255.255.255.255"
+            },
+            "vsID" : "6620571541350912735402045101108231561"
+         },
+         {
+            "avatar_name" : "Suki",
+            "created_time" : "0-00-00T00:00:00+0000",
+            "network" : {
+               "IPv4" : "0.0.0.123"
+            },
+            "vsID" : "1835441837143028198315439521682064789147"
+         },
+         {
+            "avatar_name" : "Ernie",
+            "created_time" : "2020-06-17T23:21:31+0000",
+            "network" : {
+               "IPv4" : "169.198.23.52"
+            },
+            "vsID" : "615131026851119012126299275725553917"
+         },
+         {
+            "avatar_name" : "Coffeebean",
+            "created_time" : "2020-06-16T02:25:36+1960",
+            "network" : {
+               "IPv4" : "128.120.211.75"
+            },
+            "vsID" : "11749012421083359957129819608984121291"
+         }
+      ]
+   },
+   "id" : "924811371419165400115693785366832578_17542",
+   "is_published" : true,
+   "keys" : {
+      "count" : 6,
+      "data" : [ "phoenix", "sage", "spring2020", "avatar", "sova", "raze" ]
+   },
+   "message" : "Hi, I am so bored in quarantine.",
+   "to" : {
+      "count" : 1,
+      "data" : [
+         {
+            "avatar_name" : "gandharm",
+            "vsID" : "924811371419165400115693785366832578"
+         }
+      ]
+   },
+   "updated_time" : "2020-06-16T02:25:48+0000"
+}
+

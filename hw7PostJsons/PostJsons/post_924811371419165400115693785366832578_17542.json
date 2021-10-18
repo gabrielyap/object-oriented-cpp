@@ -1,0 +1,53 @@
+{
+   "created_time" : "2020-06-15T03:45:00+0000",
+   "from" : {
+      "avatar_name" : "gandharm",
+      "vsID" : "924811371419165400115693785366832578"
+   },
+   "history" : {
+      "count" : 2,
+      "data" : [
+         {
+            "avatar_name" : "mrsclutch",
+            "created_time" : "2020-06-13T21:27:55+0000",
+            "location" : {
+               "latitude" : 0,
+               "longtitude" : 0
+            },
+            "network" : {
+               "IPv4" : "255.255.255.255"
+            },
+            "vsID" : "14014051533661276241205188300254925627"
+         },
+         {
+            "avatar_name" : "Draco",
+            "created_time" : "2020-06-15T20:36:02+0000",
+            "location" : {
+               "latitude" : 38.713790000000003,
+               "longtitude" : 0
+            },
+            "network" : {
+               "IPv4" : "128.120.211.133"
+            },
+            "vsID" : "10833599571298196089841212911650886115"
+         }
+      ]
+   },
+   "id" : "924811371419165400115693785366832578_17542",
+   "is_published" : true,
+   "keys" : {
+      "count" : 6,
+      "data" : [ "phoenix", "sage", "spring2020", "avatar", "sova", "raze" ]
+   },
+   "message" : "Hi, I am so bored in quarantine.",
+   "to" : {
+      "count" : 1,
+      "data" : [
+         {
+            "avatar_name" : "gandharm",
+            "vsID" : "924811371419165400115693785366832578"
+         }
+      ]
+   },
+   "updated_time" : "2020-06-15T21:19:53+0000"
+}

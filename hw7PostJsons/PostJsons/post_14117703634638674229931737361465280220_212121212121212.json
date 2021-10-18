@@ -1,0 +1,24 @@
+{
+   "created_time" : "2020-06-15T04:41:39+0000",
+   "from" : {
+      "avatar_name" : "Son,Hyejoo",
+      "vsID" : "14117703634638674229931737361465280220"
+   },
+   "id" : "14117703634638674229931737361465280220_212121212121212",
+   "is_published" : true,
+   "keys" : {
+      "count" : 4,
+      "data" : [ "grind", "bigbrain", "rip-off", "schooling" ]
+   },
+   "message" : "When you only have like one week of break before Summer Session.",
+   "to" : {
+      "count" : 1,
+      "data" : [
+         {
+            "avatar_name" : "Oracle",
+            "vsID" : "112638136365359060811666331781839957994"
+         }
+      ]
+   },
+   "updated_time" : "2020-06-15T18:43:58+8341"
+}
