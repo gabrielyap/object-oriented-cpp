@@ -1,0 +1,70 @@
+# Makefile for HW5, ecs36b, s2020
+#
+
+CC = g++ -std=c++14
+CFLAGS = -g -I/usr/include/jsoncpp
+
+# CFLAGS = -g -D_ECS35B_DEBUG_ -I/usr/include/jsoncpp
+# CFLAGS = -g -Wall -Wstrict-prototypes
+# CFLAGS = -O3
+
+CORE_INCS =	Core.h Person.h Post.h Comment.h Reaction.h	\
+		Action.h Link.h Message.h JvTime.h Tag.h
+CORE_OBJS =	Core.o Person.o Post.o Comment.o Reaction.o	\
+	 	Action.o Link.o JvTime.o Tag.o
+
+LDFLAGS =	-ljsoncpp
+
+# rules.
+all: 	hw5parse hw5produce hw5merge
+
+#
+#
+
+Core.o:			Core.cpp Core.h
+	$(CC) -c $(CFLAGS) Core.cpp
+
+Tag.o:			Tag.cpp Tag.h
+	$(CC) -c $(CFLAGS) Tag.cpp
+
+Person.o:		Person.cpp Person.h Core.h
+	$(CC) -c $(CFLAGS) Person.cpp
+
+Post.o:			Post.cpp Post.h
+	$(CC) -c $(CFLAGS) Post.cpp
+
+Comment.o:		Comment.cpp Comment.h
+	$(CC) -c $(CFLAGS) Comment.cpp
+
+Reaction.o:		Reaction.cpp Reaction.h
+	$(CC) -c $(CFLAGS) Reaction.cpp
+
+JvTime.o:		JvTime.cpp JvTime.h
+	$(CC) -c $(CFLAGS) JvTime.cpp
+
+Link.o:			Link.cpp Link.h
+	$(CC) -c $(CFLAGS) Link.cpp
+
+Action.o:		Action.cpp Action.h
+	$(CC) -c $(CFLAGS) Action.cpp
+
+hw5parse.o:		hw5parse.cpp $(CORE_INCS)
+	$(CC) -c $(CFLAGS) hw5parse.cpp
+
+hw5produce.o:		hw5produce.cpp $(CORE_INCS)
+	$(CC) -c $(CFLAGS) hw5produce.cpp
+
+hw5merge.o:		hw5merge.cpp $(CORE_INCS)
+	$(CC) -c $(CFLAGS) hw5merge.cpp
+
+hw5parse:		$(CORE_OBJS) hw5parse.o
+	$(CC) -o hw5parse $(CORE_OBJS) hw5parse.o $(LDFLAGS)
+
+hw5produce:		$(CORE_OBJS) hw5produce.o
+	$(CC) -o hw5produce $(CORE_OBJS) hw5produce.o $(LDFLAGS)
+
+hw5merge:		$(CORE_OBJS) hw5merge.o
+	$(CC) -o hw5merge $(CORE_OBJS) hw5merge.o $(LDFLAGS)
+
+clean:
+	rm -f *.o *~ core hw5parse hw5produce hw5merge

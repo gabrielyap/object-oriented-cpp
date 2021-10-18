@@ -1,0 +1,21 @@
+
+This is just a **** reference **** implementation.
+
+The followings are included --
+
+Makefile
+all the *.h files
+test JSON files
+The JvTime class
+(BTW, I modified the MyTime struct from the demo video to make it a C++ class,
+ called JvTime, Json Value Time class. I included both JvTime.h and JvTime.cpp)
+
+I also included three other .cpp files so you can see how I did the dumpJ functions (and how I used
+the JvTime objects) --
+
+Person.cpp (plus Core.cpp)
+Reaction.cpp
+Comment.cpp
+
+
+
