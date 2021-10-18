@@ -1,0 +1,2 @@
+Hi, this is ecs36b_hw1 -- Wed Apr  1 23:16:56 2020
+{"status": "successful", "name": "Yap, Gabriel", "sID": "917175659", "uID": "glyap26", "session": "03", "time": "Wed Apr  1 23:16:56 2020", "ip address": "128.120.211.75", "port": "51385", "code": "631704567"}

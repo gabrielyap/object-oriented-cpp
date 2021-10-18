@@ -1,0 +1,6 @@
+I found out that copyij runs faster than copyji. For copyij, I got an
+average real time of 0.039s for each run. For copyji, I got an average
+real time of 0.158s for each run. This difference in the speed of run
+time is due to the fact that ij makes the rows first, which makes it easier
+for the computer to store memory addresses in comparison to ji, which
+creates columns first.
